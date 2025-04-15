@@ -31,6 +31,17 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="bg-blomsyGreen text-defaultText font-semibold">
+        <nav>
+          {/*<ul className="flex gap-4 justify-center py-3">
+            {secciones.map((el) => (
+              <li>
+                <a href="">{el}</a>
+              </li>
+            ))}
+          </ul>*/}
+        </nav>
+      </section>
     </>
   );
 }
