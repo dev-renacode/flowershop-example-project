@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --color-defaultText: #f9f6ee;
+  --color-blomsyGreen: #68a691;
+}
