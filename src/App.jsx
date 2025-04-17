@@ -1,5 +1,7 @@
 import Header from "./components/Header";
 import hero from "./assets/hero.webp";
+import wave from "./assets/wave.svg";
+import wave2 from "./assets/wave2.svg";
 
 function App() {
   return (
@@ -25,22 +27,26 @@ function App() {
           </p>
 
           <div>
-            <button className="bg-blomsyGreen text-white/95 px-2 py-2 rounded-lg hover:bg-[#5d9683] transition-colors font-medium">
+            <button className="bg-blomsyGreen text-greenText px-2 py-2 rounded-lg hover:bg-[#5d9683] transition-colors font-medium">
               ¡Contactanos!
             </button>
           </div>
         </div>
+        <img className="absolute bottom-0" src={wave} alt="" />
       </section>
-      <section className="bg-blomsyGreen text-defaultText font-semibold">
-        <nav>
-          {/*<ul className="flex gap-4 justify-center py-3">
-            {secciones.map((el) => (
-              <li>
-                <a href="">{el}</a>
-              </li>
-            ))}
-          </ul>*/}
-        </nav>
+      <section className="bg-blomsyGreen w-full h-96 text-greenText">
+        <div className="px-5 flex flex-col justify-center h-full space-y-3">
+          <h2 className="font-bold text-3xl">Sobre Blomsy</h2>
+          <p className="">
+            En Blomsy creemos que cada flor tiene una historia que contar.
+            Creamos arreglos únicos para cada ocasión, con amor, cuidado y un
+            toque de diseño moderno. Flores frescas, ideas frescas.
+          </p>
+          <p className="italic">Con cariño, el equipo de Blomsy.</p>
+        </div>
+      </section>
+      <section className="relative bg-white w-full h-[70vh]">
+        <img className="absolute top-0" src={wave2} alt="" />
       </section>
     </>
   );

@@ -5,3 +5,12 @@
 body {
   background-color: #fafafa;
 }
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  max-width: 65ch;
+  letter-spacing: 0.02em;
+}

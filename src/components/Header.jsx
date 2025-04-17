@@ -24,9 +24,9 @@ const Header = () => {
         <nav
           className={`${
             open ? "translate-x-0" : "translate-x-full"
-          } bg-blomsyGreen text-defaultText font-semibold z-50 text-xl fixed top-0 right-0 w-60 h-screen transition-transform duration-300 ease-in-out`}
+          } bg-blomsyGreen text-greenText font-semibold z-50 text-xl fixed top-0 right-0 w-50 h-screen transition-transform duration-300 ease-in-out`}
         >
-          <button onClick={handleClick}>
+          <button onClick={handleClick} className="pt-5 pl-2">
             <img src={xicon} alt="close icon" />
           </button>
           <ul className="flex flex-col gap-5 h-full pt-10 pl-5">
